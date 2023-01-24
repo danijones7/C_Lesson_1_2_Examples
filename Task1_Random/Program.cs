@@ -10,9 +10,9 @@ System.Console.WriteLine(randnumber);
 
 if (randnumber / 10 > randnumber % 10)
 {
-    System.Console.WriteLine($"Большая цифра числа {randnumber}: {randnumber / 10}");
+    System.Console.WriteLine($"Большая цифра числа{randnumber}: {randnumber / 10}");
 }
 else
 {
-    System.Console.WriteLine($"большая цифра числа{randnumber}: {randnumber % 10}");
+    System.Console.WriteLine($"большая цифра числа {randnumber}: {randnumber % 10}");
 }
